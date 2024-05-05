@@ -1,0 +1,52 @@
+/* AluminiDetails.styles.css */
+
+.cbs-main-div {
+    padding: 30px;
+  }
+  
+  .text-black {
+    font-weight: bold;
+  }
+  
+  .img-fluid {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+  
+  .mt-3 {
+    margin-top: 3px;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .col-md-5 {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .align-items-center, .justify-content-center {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .p {
+    text-align: center;
+  }
+  
+  @media (min-width: 992px) {
+    .col-md-6 {
+      max-width: 50%;
+    }
+  }
+  

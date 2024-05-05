@@ -1,0 +1,19 @@
+.button-color {
+  background-color: #dd3b30 !important;
+}
+
+.bootcamp-common-header {
+  background-color: #dd3b30 !important;
+  padding-bottom: 40px;
+}
+
+.bootcamp-header-child {
+  justify-content: space-between;
+  padding: 0 5vw !important;
+  min-height: 120px;
+}
+
+.lejhro-logo-primary {
+    max-height: 30px !important;
+    max-width: 40vw !important;
+  }

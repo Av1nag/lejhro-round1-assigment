@@ -1,0 +1,18 @@
+.featuring-component-class {
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw !important;
+  min-height: 120px;
+}
+
+
+
+.bootcamp-explore-button:hover {
+  transition: all 0.3s ease-in-out !important;
+  background: linear-gradient(-270deg, transparent 50%, #3a3632 0) -100% !important;
+  background-size: 200% 100% !important;
+  color: white !important;
+  border-color: #3a3632 !important;
+}
