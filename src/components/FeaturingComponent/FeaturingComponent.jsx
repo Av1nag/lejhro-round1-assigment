@@ -8,7 +8,7 @@ const FeaturingComponent = () => {
         <h1 className="display-5 text-white">
           Industry&apos;s #1 Online Bootcamp
         </h1>
-        <img src="src/assets/image.webp"></img>
+        <img src="images/image.webp"></img>
         <Button
           size="lg"
           className="bootcamp-explore-button"

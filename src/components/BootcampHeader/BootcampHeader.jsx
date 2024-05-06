@@ -9,7 +9,7 @@ function BootCampHeader() {
             <Navbar.Brand href="#">
               {" "}
               <img
-                src="src/assets/lejhro_logo_white.png"
+                src="images/lejhro_logo_white.png"
                 className="lejhro-logo-primary"
               ></img>
             </Navbar.Brand>
@@ -43,7 +43,7 @@ function BootCampHeader() {
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                   <img
-                    src="src/assets/lejhro_logo_red.png"
+                    src="images/lejhro_logo_red.png"
                     className="lejhro-logo-primary"
                   ></img>{" "}
                 </Offcanvas.Title>

@@ -15,7 +15,7 @@ export default function AluminiDetails() {
           >
             <Col md={6} className="mb-10 text-center">
               <img
-                src={`src/assets/p${index}.svg`}
+                src={`images/p${index}.svg`}
                 alt=""
                 className="img-fluid"
               />
@@ -23,7 +23,7 @@ export default function AluminiDetails() {
             {index != 9 && (
               <Col md={6} className="mb-10 text-center">
                 <img
-                  src={`src/assets/p${index + 1}.svg`}
+                  src={`images/p${index + 1}.svg`}
                   alt=""
                   className="img-fluid"
                 />
