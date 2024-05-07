@@ -23,10 +23,11 @@ export default function LejhroAchievements() {
           </Card.Body>
         </Card>
       </div>
-      <h2 className="title">We Have Something For You!</h2>
 
-      <Container>
-        <Row>
+      <Container className="justify-content-center masterclass-container">
+        <h2 className="title">We Have Something For You!</h2>
+
+        <Row className=" justify-content-center masterclass-row">
           <Col className="masterclass-col">
             <h3 className="free-text">FREE</h3>
             <h4 className="masterclass-text">MASTER CLASS</h4>

@@ -3,12 +3,15 @@ import BookingForm from "../BookingForm/BookingForm";
 import "./FeaturingComponent.styles.css";
 const FeaturingComponent = () => {
   return (
-    <div className="cbs-main-div">
-      <Stack gap={5} className="featuring-component-class">
+      <Stack gap={5} className="cbs-main-div featuring-component-class">
         <h1 className="display-5 text-white">
           Industry&apos;s #1 Online Bootcamp
         </h1>
-        <img src="images/image.webp"></img>
+          <picture>
+            <source srcSet="images/image.webp" type="image/webp" />
+            <source srcSet="images/image.jpg" type="image/jpeg" />
+            <img src="images/image.jpg" />
+          </picture>
         <Button
           size="lg"
           className="bootcamp-explore-button"
@@ -18,7 +21,6 @@ const FeaturingComponent = () => {
         </Button>
         <BookingForm />
       </Stack>
-    </div>
   );
 };
 export default FeaturingComponent;

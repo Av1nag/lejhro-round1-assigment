@@ -1,19 +1,51 @@
-.button-color {
+.header-components-properties {
   background-color: #dd3b30 !important;
 }
 
-.bootcamp-common-header {
-  background-color: #dd3b30 !important;
-  padding-bottom: 40px;
-}
+
 
 .bootcamp-header-child {
   justify-content: space-between;
-  padding: 0 5vw !important;
+  padding: 0vw 5vw !important;
   min-height: 120px;
 }
 
 .lejhro-logo-primary {
-    max-height: 30px !important;
-    max-width: 40vw !important;
+  max-height: 30px !important;
+  max-width: 40vw !important;
+}
+
+/* New CSS for mobile responsiveness */
+@media (max-width: 767px) {
+  .bootcamp-header-child {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 50px;
   }
+
+  .bootcamp-header-child .navbar-brand,
+  .bootcamp-header-child .navbar-collapse {
+    margin-bottom: 20px;
+  }
+
+  .header-components-properties.mobile-view-hidden {
+    display: none;
+  }
+  .bootcamp-header-child .offcanvas-header .lejhro-logo-primary {
+    max-width: 50vw !important;
+  }
+
+  .lejhro-logo-primary {
+    max-height: 30px !important; /* Adjust the height as needed */
+    max-width: 30vw !important; /* Adjust the width as needed */
+  }
+
+  .navbar-toggler-icon {
+    font-size: 0.875rem; /* Adjust font size as needed */
+  }
+
+
+ 
+  
+}

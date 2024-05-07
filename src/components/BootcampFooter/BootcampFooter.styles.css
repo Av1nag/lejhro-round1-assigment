@@ -1,0 +1,97 @@
+/* BootcampFooter.styles.css */
+
+.footer-container {
+  margin: 30px 150px;
+  text-align: justify;
+}
+
+.footer-section {
+
+  border-bottom: 1px solid black;
+  padding: 0 0 20px 10px;
+}
+
+.footer-sub-heading {
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.footer-heading {
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.footer-links a {
+  margin-bottom: 10px;
+}
+
+.footer-content {
+  color: #000000;
+  border-bottom: 1px solid black;
+  padding: 20px 0;
+}
+
+div.col-lg-3 {
+  width: 33.33%;
+}
+
+.footer-content-no-border {
+  color: #000000;
+  padding: 10px 0;
+}
+
+.footer-content h6 {
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p {
+  margin: 0 auto;
+  margin-top: 3px;
+}
+
+@media (max-width: 992px) {
+  .footer-container {
+    margin: 30px 25px;
+  }
+
+  div.d-grid.footer-content {
+    padding: 10px 0;
+  }
+  .footer-section.container {
+    padding: 0;
+  }
+
+  .footer-sub-heading {
+    font-size: 14px;
+    text-align: left;
+    margin: 10px 0;
+  }
+
+  .footer-heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+
+  .footer-content-no-border {
+    font-size: 14px;
+    padding: 0  ;
+  }
+}
+
+@media (max-width: 797px) {
+  .footer-container {
+    font-size: 12px;
+  }
+
+  .footer-sub-heading {
+    font-size: 14px;
+    text-align: left;
+    margin: 10px 0;
+  }
+}

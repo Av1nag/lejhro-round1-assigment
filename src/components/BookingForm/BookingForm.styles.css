@@ -1,10 +1,74 @@
+/* Desktop CSS */
+.booking-form-card {
+  width: 100%;
+  padding: 20px;
+  border: none !important;
+}
+
+.booking-form-title {
+  text-align: center;
+}
+
 .booking-form-field {
   border: none !important;
   border-bottom: 3px solid #3a3632 !important;
   border-radius: 0px !important;
 }
 
-.booking-form-field:selec {
-    border: none !important;
+.booking-form-button {
+  margin: 10px;
+  border: none;
+}
+
+.booking-form-message {
+  text-align: center;
+}
+
+.img-responsive {
+  max-width: 5%;
+  height: auto;
+}
+
+.booking-form-message-icon {
+  color: #dd3b30;
+  margin-bottom: 2px;
+}
+
+/* New CSS for mobile responsiveness */
+@media (max-width: 767px) {
+  .booking-form-card {
+    width: 100vw;
+    padding: 20px;
+    border-radius: 0px !important;
+    /* Adjust padding for smaller screens */
   }
-  
+
+  .booking-form-field {
+    width: 100%; /* Make form fields full width */
+  }
+
+  .booking-form-button {
+    width: 100%; /* Make button full width */
+  }
+
+  .img-responsive {
+    max-width: 10% !important; /* Adjust image size for smaller screens */
+    height: auto !important;
+  }
+
+  /* Adjust font size for form text */
+  .booking-form-title,
+  .booking-form-message {
+    font-size: 20px !important; /* Adjust font size as needed */
+  }
+
+  .mb-3,
+  .booking-form-field,
+  .booking-form-message-icon {
+    font-size: 14px !important;
+  }
+
+  .booking-form-title {
+    padding-bottom: 20px;
+  }
+}

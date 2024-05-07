@@ -1,3 +1,4 @@
+/* Desktop CSS */
 .featuring-component-class {
   width: 100% !important;
   display: flex;
@@ -7,12 +8,40 @@
   min-height: 120px;
 }
 
-
-
 .bootcamp-explore-button:hover {
   transition: all 0.3s ease-in-out !important;
   background: linear-gradient(-270deg, transparent 50%, #3a3632 0) -100% !important;
   background-size: 200% 100% !important;
   color: white !important;
   border-color: #3a3632 !important;
+}
+
+/* New CSS for mobile responsiveness */
+@media (max-width: 767px) {
+  .featuring-component-class {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .featuring-component-class h1 {
+    text-align: center; /* Center align the h1 */
+    font-size: 1.5rem; /* Reduce the font size */
+    margin-bottom: 0px; /* Add some space below the h1 */
+  }
+
+  .featuring-component-class img {
+    width: 100%; /* Adjust image width to fill container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    object-fit: contain; /* Maintain aspect ratio and fit within container */
+  }
+
+  .bootcamp-explore-button {
+    width: 100%; /* Make button full width */
+    max-width: 300px; /* Limit button width */
+  }
+
+  .cbs-main-div.featuring-component-class {
+    padding-bottom: 0 !important;
+  }
 }

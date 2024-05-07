@@ -1,4 +1,51 @@
-.enterprise-field {
+.cbs-main-div.advantage-container {
+  padding: 40px 100px !important ;
+}
+
+.advantage-container {
   background-color: #3a3632 !important;
   color: white;
+}
+
+.text-center {
+  border: 0px !important ;
+}
+
+div.advantages-body.card-body {
+  padding: 30px !important;
+  background-color: #3a3632;
+  color: #ffff;
+}
+
+.card-body h5 {
+  margin-bottom: 10px !important;
+}
+
+@media (max-width: 767px) {
+  div.cbs-main-div.advantage-container {
+    padding: 25px 15px !important;
+  }
+
+  .advantage-container h2 {
+    font-size: 20px;
+  }
+  .advantage-container h6 {
+    font-size: 14px;
+  }
+
+  .advantage-container h5 {
+    font-size: 12px;
+  }
+
+  .advantage-container {
+    font-size: 10px;
+  }
+
+  div.advantages-body.card-body {
+    padding: 20px 0 0 0 !important;
+  }
+
+  .bi {
+    width: 25px;
+  }
 }

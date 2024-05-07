@@ -6,31 +6,29 @@ function BootCampHeader() {
       {["xxl"].map((expand) => (
         <Navbar key={expand} expand={expand} className="navbar">
           <Container fluid className="bootcamp-header-child">
-            <Navbar.Brand href="#">
-              {" "}
-              <img
-                src="images/lejhro_logo_white.png"
-                className="lejhro-logo-primary"
-              ></img>
-            </Navbar.Brand>
-            <Button size="lg" variant="outline-light">
+            <img
+              src="images/lejhro_logo_white.png"
+              className="lejhro-logo-primary header-components-properties"
+            ></img>
+            <Button
+              className="header-components-properties mobile-view-hidden"
+              size="lg"
+              variant="outline-light"
+            >
               Programs
             </Button>{" "}
-            {[
-              "Programs",
-              "Refer and Earn",
-              "Free Masterclass",
-              "Enterprise",
-            ].map((index) => (
-              <Button
-                key={index}
-                size="lg"
-                className="button-color"
-                variant="danger"
-              >
-                {index}
-              </Button>
-            ))}
+            {["Refer and Earn", "Free Masterclass", "Enterprise"].map(
+              (index) => (
+                <Button
+                  key={index}
+                  size="lg"
+                  className="header-components-properties mobile-view-hidden"
+                  variant="danger"
+                >
+                  {index}
+                </Button>
+              )
+            )}
             <Navbar.Toggle
               aria-controls={`offcanvasNavbar-expand-${expand}`}
               variant="light"

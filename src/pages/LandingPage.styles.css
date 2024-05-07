@@ -1,0 +1,12 @@
+.landing-component-class {
+  background-color: #dd3b30 !important;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  .landing-component-class {
+    padding-bottom: 0 !important;
+  }
+
+  
+}

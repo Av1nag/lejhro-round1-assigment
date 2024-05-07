@@ -1,37 +1,94 @@
 /* LejhroAchievements.styles.css */
 
 .achievements-container {
-    display: flex;
-    justify-content: center;
-    padding: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.masterclass-row {
+  display: flex;
+  align-items: center;
+}
+.achievements-card {
+  width: 75%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 0px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.masterclass-col {
+  padding: 40px 0px;
+  text-align: right;
+}
+
+.masterclass-description-col {
+  padding: 40px 0px;
+  text-align: left;
+}
+
+.free-text {
+  color: red;
+}
+
+.masterclass-text {
+  font-weight: bold;
+}
+
+.masterclass-row {
+  padding-right: 12%;
+}
+
+@media (max-width: 767px) {
+  .achievements-container {
+    background-color: #dd3b30 !important;
+    padding: 20px;
+    font-size: 10px !important;
   }
-  
+
+  .achievements-card h6 {
+    font-size: 12px !important;
+  }
+
   .achievements-card {
-    width: 75%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border: 0px;
+    width: 100%;
   }
-  
   .title {
+    padding-top: 10px;
     display: flex;
     justify-content: center;
   }
-  
+
+  .masterclass-container h2 {
+    font-size: 20px;
+  }
+
+  .masterclass-container h3 {
+    font-size: 16px;
+  }
+
+  .masterclass-container h4 {
+    font-size: 14px;
+  }
+
   .masterclass-col {
-    padding: 40px 100px;
+    padding: 20px 0px;
     text-align: right;
   }
-  
+
   .masterclass-description-col {
-    padding: 40px 100px;
+    padding: 20px 0px;
     text-align: left;
   }
-  
-  .free-text {
-    color: red;
+  .masterclass-container .row {
+    padding-right: 9% !important;
   }
-  
-  .masterclass-text {
-    font-weight: bold;
+
+  .meet-people-container {
+    padding: 20px !important;
   }
-  
+}
